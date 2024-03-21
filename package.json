@@ -59,7 +59,8 @@
     "release:tags": "git push --follow-tags origin HEAD:master",
     "test": "exit 0",
     "update": "ncu -u",
-    "update:check": "ncu -- --error-level 2"
+    "update:check": "ncu -- --error-level 2",
+    "start": "node api/index.js"
   },
   "private": true,
   "license": "MIT",
